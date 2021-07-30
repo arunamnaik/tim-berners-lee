@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(lightblue 0%, greenyellow 100%);
+    width: 100%;
+    display: table;
+    height: 800px;
+    z-index: 6;
+}
+.welcome-inner{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+.welcome-inner img{
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#bio{
+    margin-top: 50px;
+    font-family: 'Anton', sans-serif;
+}
+.menu{
+    list-style: none;
+    font-family: monospace;
+    font-size: 20px;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    right: 20px;
+}
+.links{
+    float: left;
+    padding: 30px;  
+}
+.links:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+.article{
+    font-size: 50px;
+    font-family: fantasy;
+}
+h1{
+     font-family: 'Anton', sans-serif;
+}
